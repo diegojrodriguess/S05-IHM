@@ -45,7 +45,8 @@ function reservarArmario() {
   usuario.pendencia = true;
   
   // Impmimimos uma mensagem de reserva para o usuário.
-  document.getElementById("resultado").innerText = `Olá, ${usuario.nome}! O armário ${armarioSorteado.id} foi reservado com sucesso!`;
+  document.getElementById("resultado").innerText = `Olá, ${usuario.nome}! O armário ${armarioSorteado.id} foi reservado com sucesso! 
+  O horário de devolução é: ${devolution_time.toLocaleString()}`;
 
   console.log(usuario);
   console.log(armarios);
