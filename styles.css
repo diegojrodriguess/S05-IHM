@@ -1,0 +1,76 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Layout principal */
+.container {
+    max-width: 414px;
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ccc;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+/* Logo e Ícones do Header */
+.logo {
+    width: 40px;
+    height: 40px;
+    background: black;
+    border-radius: 50%;
+}
+
+.menu {
+    display: flex;
+    gap: 8px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    background: black;
+    border-radius: 4px;
+}
+
+/* Mensagens */
+.mensagens {
+    background: #f3c1ff;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+/* Disciplinas */
+.aulas {
+    background: #b2dfdb;
+    padding: 16px;
+    border-radius: 8px;
+    display: grid;
+    gap: 8px;
+}
+
+.disciplina {
+    background: #ffffff;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Notícias */
+.noticias {
+    background: #ffcdd2;
+    padding: 16px;
+    border-radius: 8px;
+}
