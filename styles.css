@@ -151,3 +151,12 @@ body.theme-dark .material-icons-outlined {
 body.theme-dark .path_logo {
     fill: var(--color-text);
 }
+
+.svg_logo_inatel {
+    width: 40px;
+    height: 40px;
+}
+
+.path_logo {
+    fill: var(--color-primary);
+}
