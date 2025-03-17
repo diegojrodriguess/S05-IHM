@@ -49,9 +49,20 @@
                 </div>
             </section>
 
-            <section class="noticias">
-                <h2>Card de Notícias</h2>
-            </section>
+            <div class="carousel-container">
+                <button class="carousel-button prev-button" id="prevBtn">&lt;</button>
+                <div class="carousel">
+                    <img src="${event.image}" alt="${event.title}">
+                        <div class="info">
+                            <h3>${event.title}</h3>
+                            <p>${event.description}</p>
+                            <p><span class="material-symbols-outlined icon">event</span> ${event.date} às ${event.time} <span class="material-symbols-outlined icon">pin_drop</span> ${event.location}</p>
+                        </div>
+                    <!-- Os cards deverão ser inseridos dinamicamente via JS -->
+                </div>
+                
+                <button class="carousel-button next-button" id="nextBtn">&gt;</button>
+            </div>  
         </main>
     </div>
 </body>

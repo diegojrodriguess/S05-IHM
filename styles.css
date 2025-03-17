@@ -160,3 +160,71 @@ body.theme-dark .path_logo {
 .path_logo {
     fill: var(--color-primary);
 }
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel {
+    display: flex;
+    gap: 16px;
+    transition: transform 0.5s ease;
+}
+
+.event-card {
+    background: var(--color-secondary);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 200px;
+}
+
+.event-card img {
+    width: 100%;
+    height: auto;
+}
+
+.event-card .info {
+    padding: 16px;
+}
+
+.event-card .info h3 {
+    margin: 0 0 8px;
+}
+
+.event-card .info p {
+    margin: 4px 0;
+}
+
+.material-symbols-outlined.icon {
+    vertical-align: middle;
+}
+
+.carousel-button {
+    background-color: var(--color-primary);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.prev-button {
+    left: 10px;
+}
+
+.next-button {
+    right: 10px;
+}
+
+.carousel-button:hover {
+    background-color: var(--color-secondary);
+}
